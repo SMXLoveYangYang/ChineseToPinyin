@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3435EB171E00216900A4C1A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3435EB161E00216900A4C1A7 /* main.m */; };
+		3435EB1A1E00216900A4C1A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3435EB191E00216900A4C1A7 /* AppDelegate.m */; };
+		3435EB1D1E00216900A4C1A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3435EB1C1E00216900A4C1A7 /* ViewController.m */; };
+		3435EB201E00216900A4C1A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3435EB1E1E00216900A4C1A7 /* Main.storyboard */; };
+		3435EB221E00216900A4C1A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3435EB211E00216900A4C1A7 /* Assets.xcassets */; };
+		3435EB251E00216900A4C1A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3435EB231E00216900A4C1A7 /* LaunchScreen.storyboard */; };
+		3435EB2F1E00217700A4C1A7 /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3435EB2E1E00217700A4C1A7 /* ChineseToPinyin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3435EB121E00216900A4C1A7 /* ChineseToPinyin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChineseToPinyin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3435EB161E00216900A4C1A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3435EB181E00216900A4C1A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3435EB191E00216900A4C1A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3435EB1B1E00216900A4C1A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3435EB1C1E00216900A4C1A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3435EB1F1E00216900A4C1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3435EB211E00216900A4C1A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3435EB241E00216900A4C1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3435EB261E00216900A4C1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3435EB2D1E00217700A4C1A7 /* ChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyin.h; sourceTree = "<group>"; };
+		3435EB2E1E00217700A4C1A7 /* ChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3435EB0F1E00216900A4C1A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3435EB091E00216900A4C1A7 = {
+			isa = PBXGroup;
+			children = (
+				3435EB141E00216900A4C1A7 /* ChineseToPinyin */,
+				3435EB131E00216900A4C1A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3435EB131E00216900A4C1A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3435EB121E00216900A4C1A7 /* ChineseToPinyin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3435EB141E00216900A4C1A7 /* ChineseToPinyin */ = {
+			isa = PBXGroup;
+			children = (
+				3435EB2C1E00217700A4C1A7 /* ChineseToPinyin */,
+				3435EB181E00216900A4C1A7 /* AppDelegate.h */,
+				3435EB191E00216900A4C1A7 /* AppDelegate.m */,
+				3435EB1B1E00216900A4C1A7 /* ViewController.h */,
+				3435EB1C1E00216900A4C1A7 /* ViewController.m */,
+				3435EB1E1E00216900A4C1A7 /* Main.storyboard */,
+				3435EB211E00216900A4C1A7 /* Assets.xcassets */,
+				3435EB231E00216900A4C1A7 /* LaunchScreen.storyboard */,
+				3435EB261E00216900A4C1A7 /* Info.plist */,
+				3435EB151E00216900A4C1A7 /* Supporting Files */,
+			);
+			path = ChineseToPinyin;
+			sourceTree = "<group>";
+		};
+		3435EB151E00216900A4C1A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3435EB161E00216900A4C1A7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3435EB2C1E00217700A4C1A7 /* ChineseToPinyin */ = {
+			isa = PBXGroup;
+			children = (
+				3435EB2D1E00217700A4C1A7 /* ChineseToPinyin.h */,
+				3435EB2E1E00217700A4C1A7 /* ChineseToPinyin.m */,
+			);
+			path = ChineseToPinyin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3435EB111E00216900A4C1A7 /* ChineseToPinyin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3435EB291E00216900A4C1A7 /* Build configuration list for PBXNativeTarget "ChineseToPinyin" */;
+			buildPhases = (
+				3435EB0E1E00216900A4C1A7 /* Sources */,
+				3435EB0F1E00216900A4C1A7 /* Frameworks */,
+				3435EB101E00216900A4C1A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChineseToPinyin;
+			productName = ChineseToPinyin;
+			productReference = 3435EB121E00216900A4C1A7 /* ChineseToPinyin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3435EB0A1E00216900A4C1A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = SMX;
+				TargetAttributes = {
+					3435EB111E00216900A4C1A7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3435EB0D1E00216900A4C1A7 /* Build configuration list for PBXProject "ChineseToPinyin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3435EB091E00216900A4C1A7;
+			productRefGroup = 3435EB131E00216900A4C1A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3435EB111E00216900A4C1A7 /* ChineseToPinyin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3435EB101E00216900A4C1A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3435EB251E00216900A4C1A7 /* LaunchScreen.storyboard in Resources */,
+				3435EB221E00216900A4C1A7 /* Assets.xcassets in Resources */,
+				3435EB201E00216900A4C1A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3435EB0E1E00216900A4C1A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3435EB1D1E00216900A4C1A7 /* ViewController.m in Sources */,
+				3435EB2F1E00217700A4C1A7 /* ChineseToPinyin.m in Sources */,
+				3435EB1A1E00216900A4C1A7 /* AppDelegate.m in Sources */,
+				3435EB171E00216900A4C1A7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3435EB1E1E00216900A4C1A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3435EB1F1E00216900A4C1A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3435EB231E00216900A4C1A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3435EB241E00216900A4C1A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3435EB271E00216900A4C1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3435EB281E00216900A4C1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3435EB2A1E00216900A4C1A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChineseToPinyin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMX.ChineseToPinyin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3435EB2B1E00216900A4C1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChineseToPinyin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SMX.ChineseToPinyin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3435EB0D1E00216900A4C1A7 /* Build configuration list for PBXProject "ChineseToPinyin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3435EB271E00216900A4C1A7 /* Debug */,
+				3435EB281E00216900A4C1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3435EB291E00216900A4C1A7 /* Build configuration list for PBXNativeTarget "ChineseToPinyin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3435EB2A1E00216900A4C1A7 /* Debug */,
+				3435EB2B1E00216900A4C1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3435EB0A1E00216900A4C1A7 /* Project object */;
+}
